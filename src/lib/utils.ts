@@ -7,5 +7,5 @@ import { Response } from "express";
  * @param template Referencia del template seleccionado
  * @returns 
  */
-export const renderTemplate = (res: Response, template: string = "index") => 
+export const renderTemplate = (res: Response, template = "index"): void => 
     res.render( template );
